@@ -1,0 +1,78 @@
+.card {
+    background: $card-bg;
+    border-radius: $radius;
+    overflow: hidden;
+    box-shadow: $shadow;
+    display: grid;
+    grid-template-rows: 1fr 1fr 88px;
+    height: 375px;
+    width: 350px;
+    margin-bottom: 50px;
+    position: relative;
+
+
+    &__header {
+        background: url(images/bg-pattern-card.svg) center center;
+        background-size: cover;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    &__avatar {
+        border-radius: 50%;
+        border: 5px solid #fff;
+        position: relative;
+        top: 53px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.9rem;
+        padding-top: 40px;
+        color: $dark-gray;
+    }
+
+    &__user {
+        font-size: 1.1rem;
+        line-height: 2.8rem;
+        margin: 0;
+        font-weight: normal;
+
+        strong {
+            display: inline-block;
+            margin-right: 5px;
+            color: $font-color;
+        }
+    }
+
+    &__footer {
+        border-top: 1px solid #ebecea;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 30px;
+    }
+
+    &__stat {
+        text-align: center;
+        display: block;
+        width: 50px;
+    }
+
+    &__count {
+        font-weight: bold;
+        color: $font-color;
+        line-height: 2rem;
+    } 
+
+    &__label {
+        font-size: 0.6rem;
+        letter-spacing: 2px;
+        color: $dark-gray;
+    } 
+}
