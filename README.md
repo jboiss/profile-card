@@ -30,7 +30,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [Solution Submission](https://www.frontendmentor.io/solutions/profile-card-with-css-flexbox-and-grid-built-with-scss-and-webpack-oFmvkJf27)
-- Live Site URL: [Github Pages](https://jboiss.github.io/profile-card/docs/)
+- Live Site URL: [Github Pages](https://jboiss.github.io/profile-card/)
 
 ## My process
 
